@@ -1,0 +1,195 @@
+.body{
+    margin: 0px ;
+    padding: 0px ;
+    
+}
+
+.navbar-collapse{
+    background-color: black;
+    position: fixed; 
+  top: 0; 
+  width: 100%; 
+  z-index: 1000;
+}
+
+.logotitle{
+    margin: 0px;
+    border-right: 2px solid #e6c200;
+}
+
+.logotitle:hover{
+ cursor: pointer;
+}
+
+.title{
+   
+    padding-left: 20px;
+    padding-right: 10px;
+    color: white;
+    font-size: larger;
+    margin: 0px;
+}
+
+.title a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+.px-5{
+    padding-bottom: 0px;
+    padding-left: 3rem!important;
+    padding-top: 10px;
+}
+.px-5 img{
+
+    max-width: 250px;
+}
+
+.main-nav {
+    left: 0;
+}
+
+ul{
+    display: inline-flex;
+    flex-direction: row;
+    float: right;
+    margin-bottom: 0px;
+   
+}
+
+.bg-dark {
+    background-color: #343a40;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+ul li{
+
+    display: inline-block;
+    background-color: black;
+	text-decoration: none;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+color: white;
+transition:0.6s ease; 
+ }
+
+ ul li a{
+        background-color: black;
+        text-decoration: none;
+        color: white;
+      }
+ 
+      ul  a:hover{
+        text-decoration: none;
+          color: white;
+      }
+      
+     
+
+      .submenu{
+
+        position: absolute;
+        top:70%;
+        width:500px;
+        height:500px;
+        text-transform: none;
+    display: none;
+    
+    }
+
+    
+    .menu_item:hover .submenu{
+      display:block;
+      text-decoration: none;
+
+    
+    }
+    
+    .submenu_item:hover{
+    
+        background-color: black;
+        border-left: 4px solid #e6c200 ;
+        text-decoration: none;
+    }
+    
+    
+    
+
+
+img{
+    
+    height: auto;
+    background: lightblue;
+    background: radial-gradient(white 30%, lightblue 70%);
+}
+
+
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
+
+.logo img{
+    max-width: 50px;
+}
+
+
+
+.img-fluid {
+    max-width: 200px;
+    max-height:auto;
+}
+
+.bg-white .pl-0 .img-fluid{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.shadow {
+    box-shadow: 0 0 10px#b2b2b2;
+    margin-bottom: 15px;
+    margin-top: 25px;
+}
+
+.btn , .btn-warning {
+    background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+}
+
+.btn , .btn-warning:hover {
+    background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    border: none;
+}
+
+.mx-2 {
+    
+   
+    background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+    border-color: #e6c200;
+}
+
+.mx-2:hover{
+background: linear-gradient(to right, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+border: none;
+};
+
